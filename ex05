@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação em CSS</title>
+    <style>
+        div {
+            display:inline-block; /* exibe uma div ao lado da outra, em linha */
+            width: 250px; /* largura do bloco */
+            height: 250px; /* altura do bloco */
+            background-color: azure;
+            border: 1px solid white; /* borda do bloco */
+        }
+
+        div#area01 { 
+            background-color: lightpink;
+        }
+
+        #area02 { 
+            background-color: lightgreen;
+        }
+
+        div#area03, div#area05 { 
+            background-color: lightblue;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <h1>Identificadores em CSS</h1>
+    <p>Exemplos:</p>
+
+    <div id="area01"></div>
+    <div id="area02"></div>
+    <div id="area03"></div>
+    <div id="area04"></div>
+    <div id="area05"></div>
+
+</body>
+</html>
