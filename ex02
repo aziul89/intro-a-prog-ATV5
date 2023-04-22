@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamentos com CSS</title>
+</head>
+<body style="font: 14pt Arial;">
+    <h1>Alinhamento de textos com CSS</h1>
+    <p style="text-align: left;">1) Parágrafo alinhdo à esquerda.</p>
+    <p style="text-align: right;">2) Parágrafo alinhado à direita.</p>
+    <p style="text-align: center;">3) Parágrafo com alinhamento centralizado.</p>
+    <p style="text-align: justify;">4) Esse parágrafo terá o alinhamento justificado. Para perceber isso, é preciso colocar um texto um pouco maior. Esse tipo de alinhamento é bastante utilizado para textos longos e grandes parágrafos, para dar uma sensação de simetria. Essa é um atividade da matéria de introdução á programação com base no curso de html e css do curso em vídeo. </p>
+</body>
+</html>
