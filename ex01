@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+</head>
+<body>
+    <h1>Cores em CSS (estilo)</h1>
+    <p>Exemplos de código fonte do arquivo HTML.</p>
+    <h2 style="background-color: lightgreen; color: black;"> cores por nome</h2>
+    <h2 style="background-color: #00FFFF; color: #000000;"> cores pelo código Hexadecimal</h2>
+    <h2 style="background-color: rgb(0, 0, 139); color: rgb(255, 255, 255);">códigos RGB (red, green, blue)</h2>
+    <h2 style="background-color: hsl(240, 100%, 27%); color: hsl(0, 0%, 100%);">códigos HSL (hue, saturation, light)</h2>
+    <p>Tem como deixar as mesmas cores, mas o formato de representação muda conforme o padrão escolhido.</p>
+    <p>Também é possível usar transparência, usando o formato RGBA (red, green, blue, alpha)</p>
+    <h2 style="background-color: rgba(0, 0, 139, 0.7); color: white;">Nesse título, o fundo azul teve sua transparência configurada para 70%</h2>
+</body>
+</html>
