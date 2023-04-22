@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes CSS</title>
+    <style>
+        body {
+            font: 12pt Arial; 
+        }
+
+        p { 
+            text-align: justify;
+            text-indent: 20pt; 
+        }
+
+        p.meio { 
+            text-align: center;
+        }
+
+        p.dir { 
+            text-align: left;
+        }
+
+        p.especial { 
+            background-color: rgba(242, 255, 0, 0.7);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Classes em CSS</h1>
+    <p>Exemplo:</p>
+
+    <h2>Texto-Teste</h2>
+
+    <p>A programação, às vezes chamada de programação computacional, é a forma como nos comunicamos com os computadores. A programação informa à máquina quais ações executar. Criar um código é como definir um conjunto de instruções. Ao aprender a programar, você pode dizer ao computador o que fazer ou como se comportar de uma maneira muito mais rápida. É possível usar essa habilidade para criar sites e apps, processar dados e fazer muitas coisas interessantes. 
+    </p>
+
+    <h3>Sub-texto</h3>
+
+    <p class="dir">Todos nós temos esperanças, sonhos e planos para o futuro. Se você está procurando uma nova oportunidade, quer otimizar seu trabalho atual ou simplesmente está procurando um novo hobby, então a programação pode ajudar você. Não se esqueça de que qualquer pessoa pode aprender a programar.
+    </p>
+
+    <h3>
+        Sub-texto 2
+    </h3>
+
+    <p class="especial">
+       Os empregos em informática e tecnologia da informação estão crescendo de forma incrivelmente rápida em todo o mundo. Você não precisa de uma faculdade em Ciência da Computação, porque há cada vez mais empregos bem remunerados surgindo todos os dias para alunos novos como você.
+    </p>
+
+    <h3>
+       Sub-texto 3
+    </h3>
+
+    <p class="meio especial"> Sempre quis criar um app ou um site? Você precisa de programação para isso. Com ela, também é possível automatizar uma planilha ou criar novas ferramentas para sua comunidade. Aprender a programar permite que você coloque em prática as coisas que gostaria de fazer.
+    </p>
+        
+</body>
+</html>
